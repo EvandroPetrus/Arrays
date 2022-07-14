@@ -24,7 +24,14 @@ public class Main {
 
     }*/
         Scanner read = new Scanner(System.in);
-        int[][] numb = new int[2][2];
+        int j, i;
+        System.out.println("What's the x dimension of the matrix?");
+        i = read.nextInt();
+
+        System.out.println("What's the y dimension of the matrix?");
+        j = read.nextInt();
+
+        int[][] numb = new int[i][j];
         for (int x = 0; x < numb.length; x++){
             for(int y = 0; y < numb[x].length; y++){
                 System.out.println("value for pos "+(x+1)+" "+(y+1)+".");
