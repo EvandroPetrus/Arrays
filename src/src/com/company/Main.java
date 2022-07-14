@@ -34,7 +34,7 @@ public class Main {
         int[][] numb = new int[i][j];
         for (int x = 0; x < numb.length; x++){
             for(int y = 0; y < numb[x].length; y++){
-                System.out.println("Set the value for the position "+(x+1)+" "+(y+1)+".");
+                System.out.println("Set the value for the position "+(x+1)+" , "+(y+1)+".");
                 numb[x][y] = read.nextInt();
             }
         }
