@@ -31,7 +31,7 @@ public class Main {
         System.out.println("What's the y dimension of the matrix?");
         j = read.nextInt();
 
-        int[][] numb = new int[i][j];
+        int[][] numb = new int[i][j];                                     //bidimensional array
         for (int x = 0; x < numb.length; x++){
             for(int y = 0; y < numb[x].length; y++){
                 System.out.println("Set the value for the position "+(x+1)+" , "+(y+1)+".");
